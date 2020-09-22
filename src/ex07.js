@@ -60,3 +60,5 @@ const calc = (op, a, b) => {
             console.log('Nop: unknown operator')
     }
 }
+
+console.log(calc('*', 7, 6))
